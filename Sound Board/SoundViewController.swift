@@ -44,7 +44,7 @@ class SoundViewController: UIViewController {
             
             // Create settings for the audio recorder
             
-            var settings : [String:AnyObject] = [:]
+            var settings : [String:Any] = [:]
             settings[AVFormatIDKey] = Int(kAudioFormatMPEG4AAC)
             settings[AVSampleRateKey] = 44100.0
             settings[AVNumberOfChannelsKey] = 2
